@@ -26,6 +26,16 @@ window.addEventListener("scroll", showWithScroll());
 window.addEventListener("scroll", () => {
   showWithScroll();
 });
+function mailMe() {
+  let subject = document.getElementById("subject").value;
+  let message = document.getElementById("message").value;
+  window.open(
+    "mailto:bengueddoudjakramdev@gmail.com?subject=" +
+      subject +
+      "&body=" +
+      message
+  );
+}
 
 // navbar
 let headerContainer = document.getElementById("header-container");

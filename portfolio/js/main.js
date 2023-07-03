@@ -42,7 +42,10 @@ function mailMe() {
   let subject = document.getElementById("subject").value;
   let message = document.getElementById("message").value;
   window.open(
-    "mailto:maj04hol02@gmail.com?subject=" + subject + "&body=" + message
+    "mailto:bengueddoudjakramdev@gmail.com?subject=" +
+      subject +
+      "&body=" +
+      message
   );
 }
 
